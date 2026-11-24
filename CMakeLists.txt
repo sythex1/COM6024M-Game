@@ -15,6 +15,7 @@ project(AssessmentGame)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(raylib_DIR "C:/vcpkg/installed/x64-windows/share/raylib")
 find_package(raylib CONFIG REQUIRED)
 
 # TODO: as your project grows, list your extra .cpp files here, e.g.:

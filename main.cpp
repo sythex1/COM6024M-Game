@@ -26,7 +26,12 @@ int main() {
         // TODO: replace this placeholder with your own drawing code
         DrawText("It works! Start building your game here.", 40, 200, 20, DARKGRAY);
 
+
         EndDrawing();
+
+        
+        SwapScreenBuffer();
+
     }
 
     CloseWindow();
